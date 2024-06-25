@@ -3,6 +3,7 @@ import CharacterList from "@/sections/CharacterList";
 import EpisodeList from "@/sections/EpisodeList";
 import Hero from "@/sections/Hero";
 import { Character } from "@/types/api-types";
+import Footer from "@/components/Footer";
 
 async function getCharacters() {
     const res = await fetch(
@@ -21,6 +22,7 @@ export default async function Home() {
             <Hero />
             <CharacterList characters={characters} />
             <EpisodeList />
+            <Footer />
         </main>
     );
 }

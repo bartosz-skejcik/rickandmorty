@@ -58,7 +58,7 @@ export default function NavBar() {
                         as={Link}
                         size="sm"
                         color="warning"
-                        href="https://dev.paczesny.pl"
+                        href="#"
                         variant="flat"
                     >
                         Contact

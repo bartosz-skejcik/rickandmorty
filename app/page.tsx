@@ -3,7 +3,7 @@ import CharacterList from "@/sections/CharacterList";
 import EpisodeList from "@/sections/EpisodeList";
 import Hero from "@/sections/Hero";
 import { Character } from "@/types/api-types";
-import Footer from "@/components/Footer";
+import Footer from "@/sections/Footer";
 
 async function getCharacters() {
     const res = await fetch(
